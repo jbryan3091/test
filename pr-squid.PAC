@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Definir los dominios excluidos del proxy
-    var excludedDomains = ["*.slack.com", "*.meet.google.com", "*.youtube.com"];
+    var excludedDomains = ["*.slack.com", "*.meet.google.com", "*.youtube.com","*.zoom.com"];
     
     // Verificar si el tráfico es hacia alguno de los dominios excluidos
     for (var i = 0; i < excludedDomains.length; i++) {
